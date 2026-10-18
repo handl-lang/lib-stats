@@ -1,0 +1,10 @@
+from "./index" import * as m
+test_sum := assert m.sum([1,2,3]) = 6
+test_prod := assert m.product([2,3,4]) = 24
+test_avg := assert m.avg([2,4,6]) = 4
+test_min := assert m.min([3,1,5]) = 1
+test_max := assert m.max([3,1,5]) = 5
+test_med_odd := assert m.median([5,1,3]) = 3
+test_med_even := assert m.median([4,1,2,3]) = 2.5
+test_stddev := assert m.stddev([2,2,2,2]) = 0
+test_sort := assert m.median([9,1,7,3,5]) = 5
