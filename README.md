@@ -18,5 +18,5 @@ ci.sh           bupha entry
 ## Gate
 
 ```bash
-HNL=../cli/target/debug/hnl ./ci.sh
+HNL=../host-cli/target/debug/hnl ./ci.sh
 ```
