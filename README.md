@@ -20,3 +20,7 @@ ci.sh           bupha entry
 ```bash
 HNL=../host-cli/target/debug/hnl ./ci.sh
 ```
+
+## License
+
+MIT.
