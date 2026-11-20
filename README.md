@@ -3,22 +3,20 @@
 `stats` — Handl stdlib port: `sum`, `avg`, `product`, `min`, `max`, `median`,
 `stddev` over collections.
 
-Part of the stdlib → `lib-*` split (ADR-0128). History is a `git subtree split`
-of `stdlib/handl-packages/stats/`.
-
 ## Layout
 
 ```text
-src/index.hnl   the library (pure handl)
-src/lib.rs      const-only crate re-exporting the source
-pkg.hnl         { modules: ["stats"] }
-ci.sh           bupha entry
+src/index.hnl         the library (pure handl)
+src/stats.test.hnl    the .hnl test suite
+src/docs/stats.yml    package docs
+pkg.hnl               package manifest — modules, deps, description, license
+ci.sh                 bupha entry → scripts/hnl-gate.sh
 ```
 
 ## Gate
 
 ```bash
-HNL=../host-cli/target/debug/hnl ./ci.sh
+HNL=../host-cli/target/debug/hnl scripts/hnl-gate.sh
 ```
 
 ## License
