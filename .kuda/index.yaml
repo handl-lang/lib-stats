@@ -1,19 +1,14 @@
 name: lib-stats
 root: /home/luis/GitHub/handl-lang/lib-stats
-purpose: ''
-modules:
-- handl-lib-stats
-- lib-stats
-commands:
-- cargo check
-- cargo test --workspace
+purpose: '`stats` — Handl stdlib port: `sum`, `avg`, `product`, `min`, `max`, `median`,'
+modules: []
+commands: []
+tree_digest: da39a3ee5e6b4b0d3255bfef95601890afd80709
 provenance:
   files:
-  - Cargo.toml
-  - src/lib.rs
+  - README.md
   hashes:
-  - f4247f128dc6a0b6fe9d96341f1b2d07fdcb08e0
-  - 6ad892084b50038abd55cf44553c86d55ef39849
-  commit_sha: b6f41b61e8f06547029321b609c498d5944cc9a1
-  generated_at: '1792281230'
+  - edf97b2dc290f4ccb55553b15df29d708ef9b1c4
+  commit_sha: 3c6811610298eb3ac2912300759cff2ec3c61f1f
+  generated_at: '1795484421'
   generator: kuda/0.1.0
