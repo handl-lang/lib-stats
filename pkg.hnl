@@ -1,1 +1,1 @@
-{ modules: ["stats"], description: "Stats over collections: sum, avg, product, min, max, median, stddev.", license: "MIT" }
+{ modules: ["stats"], name: "stats", description: "Stats over collections: sum, avg, product, min, max, median, stddev.", license: "MIT" }
