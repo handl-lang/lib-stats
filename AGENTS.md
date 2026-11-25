@@ -1,3 +1,32 @@
+# lib-stats
+
+`stats` — Handl stdlib port: `sum`, `avg`, `product`, `min`, `max`,
+`median`, `stddev` over collections. Pure `.hnl`.
+
+## Layout
+
+| path | role |
+| --- | --- |
+| `src/index.hnl` | the library |
+| `src/stats.test.hnl` | the .hnl test suite |
+| `src/docs/stats.yml` | package docs |
+| `pkg.hnl`, `scripts/hnl-gate.sh`, `ci.sh` | manifest / gate / bupha entry |
+
+## Contract
+
+- Collection statistics as handl arrows; see `src/index.hnl` for the
+  surface.
+
+## Verification
+
+```bash
+HNL=../host-cli/target/debug/hnl scripts/hnl-gate.sh
+```
+
+## License
+
+MIT.
+
 <!-- myco:agent-awareness -->
 
 ## Agent awareness
