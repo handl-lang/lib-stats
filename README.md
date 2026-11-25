@@ -10,7 +10,7 @@ src/index.hnl         the library (pure handl)
 src/stats.test.hnl    the .hnl test suite
 src/docs/stats.yml    package docs
 pkg.hnl               package manifest — modules, deps, description, license
-ci.sh                 bupha entry → scripts/hnl-gate.sh
+workflows/gate.yaml                 bupha entry (handl-gates) → scripts/hnl-gate.sh
 ```
 
 ## Gate
